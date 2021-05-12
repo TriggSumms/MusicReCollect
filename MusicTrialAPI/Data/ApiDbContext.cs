@@ -9,6 +9,7 @@ namespace MusicTrialAPI.Data
 {
     public class ApiDbContext : DbContext
     {
+        // Going slow on connection string...eventually this will form a base repo 
         public ApiDbContext(DbContextOptions<ApiDbContext>options) : base(options)
         {
 
